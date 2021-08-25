@@ -16,7 +16,6 @@ public class ConsolePrint : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(gameObject.name + " : " + i);
-        i++;
+        Debug.Log(gameObject.name + ":" + ++i);
     }
 }
